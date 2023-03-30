@@ -1,0 +1,103 @@
+body{
+
+
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+@media only screen and (max-device-width: 375px) {
+    
+    /* .menu { width:100%; } */
+    #corpo{
+
+        background-color: hsl(0, 0%, 100%);
+        margin:auto;
+        /* min-width: 375px;
+        max-width: 1440px; */
+        width: 275px; /*antes 275px*/
+        height: 440px;
+        padding:5px;
+        border-radius: 20px;
+        box-shadow: 5px 1px 10px 10px hsl(220, 15%, 55%, 0.1);
+    
+
+    } 
+
+    #ajuste-do-corpo{
+
+       margin-top:auto;
+       margin-bottom: auto; 
+       margin-left: auto;
+       margin-right: auto;    
+
+    }
+
+
+}
+
+
+@media only screen and (max-device-width: 1440px) {
+    
+    /* .menu { width:100%; } */
+    #corpo{
+
+        background-color: hsl(0, 0%, 100%);
+        margin:auto;
+        /* min-width: 375px;
+        max-width: 1440px; */
+        width: 275px;
+        height: 440px;
+        padding:5px;
+        border-radius: 20px;
+        box-shadow: 5px 1px 10px 10px hsl(220, 15%, 55%, 0.1);
+    
+
+    } 
+
+    
+
+
+}
+
+#image{
+    
+    /* padding:10px; */
+    margin-top:10px;
+    width:250px;
+    border-radius: 11px;
+   
+
+
+}
+
+#qr_Code{
+
+    text-align: center;
+
+}
+
+#text_main{
+
+    text-align: center;
+    padding:15px
+
+}
+
+
+h3{
+
+    padding:0;
+    margin:0;
+    color:hsl(218, 44%, 22%);
+
+}
+
+
+p{
+
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+}
+
+
